@@ -1,0 +1,31 @@
+.feature {
+  display: flex;
+  gap: 30px;
+}
+
+.feature__wrap {
+  height: 120px;
+  margin-bottom: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--section-bc-cl);
+
+  border-radius: 4px;
+}
+.feature__title {
+  margin-bottom: 10px;
+
+  font-size: 14px;
+  line-height: calc(16 / 14);
+
+  text-transform: uppercase;
+}
+.feature__desc {
+  margin-top: 0;
+
+  line-height: calc(24 / 14);
+
+  color: var(--secondary-txt-cl);
+}

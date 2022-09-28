@@ -1,0 +1,35 @@
+/* block 1 */
+:root {
+  /* Fonts */
+  --main-font-family: "Roboto", sans-serif;
+  --secondary-font-family: "Raleway", sans-serif;
+
+  /* text colors*/
+  --primary-txt-cl: #212121;
+  --secondary-txt-cl: #757575;
+  --dark-txt-cl: #000;
+  --light-txt-cl: #fff;
+  --light-txt-cl-60: rgba(255, 255, 255, 0.6);
+  --accent-txt-cl: #2196f3;
+  --socials-ln-cl: #afb1b8;
+
+  /* background colors */
+  --baner-cl: #c4c4c4;
+  --baner-gr-cl: rgba(47, 48, 58, 0.4);
+  --futer--bg-cl: #2f303a;
+  --section-bc-cl: #f5f4fa;
+  --light-bc-cl: #ffffff;
+  --accent-cl: #2196f3;
+  --accent-act-cl: #188ce8;
+  --line-cl: #ececec;
+  --portfolio-br-cl: #eeeeee;
+  --socials-bg-cl: rgba(255, 255, 255, 0.1);
+  --bg-backdrop-cl: rgba(0, 0, 0, 0.2);
+
+  /* бордер*/
+  --br-modal-cl: rgba(0, 0, 0, 0.1);
+  --br-form-cl: rgba(33, 33, 33, 0.2);
+
+  /*анімація*/
+  --animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

@@ -1,0 +1,23 @@
+body {
+  font-family: var(--main-font-family);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: var(--primary-txt-cl);
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section__title {
+  margin-bottom: 50px;
+
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+}
+
+// .list__content {
+//   display: flex;
+//   gap: 30px;
+// }
