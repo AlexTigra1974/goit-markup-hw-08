@@ -1,15 +1,36 @@
 .clients {
   display: flex;
-  gap: 30px;
+  align-items: center;
   justify-content: center;
+  gap: 30px;
+
+  @media screen and (max-width: 1199px) {
+    flex-wrap: wrap;
+  }
+}
+.clients__item {
+  @media screen and (max-width: 767px) {
+    flex-basis: calc(100% / 2);
+  }
+  @media screen and (max-width: 1199px) {
+    flex-basis: calc((100% - 2 * 30px) / 3);
+  }
 }
 
 .clients__link {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 170px;
+  width: 210px;
   height: 92px;
+
+  @media screen and (min-width: 768px) {
+    width: 226px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 170px;
+  }
+
   border: 1px solid var(--socials-ln-cl);
   border-radius: 4px;
   color: var(--socials-ln-cl);

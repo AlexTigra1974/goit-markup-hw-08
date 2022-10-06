@@ -5,19 +5,28 @@ body {
   color: var(--primary-txt-cl);
 }
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .section__title {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 
-  font-size: 36px;
-  line-height: calc(42 / 36);
+  font-weight: 700;
+  font-size: 28px;
+  line-height: calc(28 / 33);
+
   text-align: center;
-}
 
-// .list__content {
-//   display: flex;
-//   gap: 30px;
-// }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 50px;
+
+    font-size: 36px;
+    line-height: calc(42 / 36);
+  }
+}

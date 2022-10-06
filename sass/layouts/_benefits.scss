@@ -1,14 +1,19 @@
+.section--no-padding-top {
+  padding-top: 0;
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
+}
+
 .benefits {
   display: flex;
   gap: 30px;
 }
 
-.section--no-padding-top {
-  padding-top: 0;
-}
 .benefits__item {
   position: relative;
 }
+
 .benefits__title {
   position: absolute;
   bottom: 0;

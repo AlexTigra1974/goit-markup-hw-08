@@ -2,8 +2,14 @@
   background-color: var(--section-bc-cl);
 }
 .team {
-  display: flex;
-  gap: 30px;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    gap: 30px;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    flex-wrap: wrap;
+  }
 }
 
 .team__item {
@@ -11,10 +17,21 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   background-color: var(--light-bc-cl);
+
+  &:not(:last-child) {
+    @media screen and (max-width: 767px) {
+      margin-bottom: 30px;
+      width: 100%;
+    }
+  }
 }
 
 .team__card {
-  padding: 30px 10px;
+  padding: 30px 10px 24px;
+
+  @media screen and (min-width: 1200px) {
+    padding: 30px 10px;
+  }
 }
 
 .team__title {
