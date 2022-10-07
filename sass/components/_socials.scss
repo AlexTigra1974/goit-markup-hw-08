@@ -23,6 +23,11 @@
   }
 }
 
+.socials__link--lite {
+  color: var(--light-txt-cl);
+  background-color: var(--socials-bg-cl);
+}
+
 .socials__icon {
   fill: currentColor;
 }

@@ -1,5 +1,5 @@
 .hero {
-  max-width: 480px;
+  max-width: 1600px;
   min-height: 400px;
   margin-left: auto;
   margin-right: auto;
@@ -7,12 +7,7 @@
   padding-bottom: 118px;
   text-align: center;
 
-  @media screen and (min-width: 768px) {
-    max-width: 768px;
-  }
-
   @media screen and (min-width: 1200px) {
-    max-width: 1600px;
     min-height: 600px;
     padding-top: 200px;
     padding-bottom: 200px;
@@ -85,7 +80,6 @@
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
-  width: 360px;
 
   color: var(--light-txt-cl);
   font-weight: 900;
@@ -94,6 +88,10 @@
 
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
+  @media screen and (min-width: 768px) {
+    width: 360px;
+  }
 
   @media screen and (min-width: 1200px) {
     width: 696px;

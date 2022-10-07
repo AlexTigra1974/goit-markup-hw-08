@@ -29,6 +29,9 @@
   position: absolute;
   top: 10px;
   right: 15px;
+  background-color: transparent;
+  border: none;
+  fill: var(--primary-txt-cl);
 
   transition: fill var(--animation);
 
@@ -74,24 +77,17 @@
 .mobile-menu__link {
   position: relative;
   color: inherit;
-
+}
+.mobile-menu__item {
+  color: var(--primary-txt-cl);
   &:hover,
   &:focus {
     color: var(--accent-txt-cl);
-    &::after {
-      position: absolute;
-      left: 0;
-
-      content: "";
-      display: block;
-      width: 100%;
-      height: 4px;
-      background-color: var(--accent-txt-cl);
-      border-radius: 2px;
-    }
   }
 }
-
+.active {
+  color: var(--accent-txt-cl);
+}
 .mobile-menu__item:not(:first-child) {
   margin-top: 32px;
 }
