@@ -43,17 +43,17 @@
         var(--baner-gr-cl)
       ),
       url("../images/hero-img/img_md-@1x.jpg");
+  }
 
-    @media (min-device-pixel-ratio: 2),
-      (min-resolution: 192dpi),
-      (min-resolution: 2dppx) {
-      background-image: linear-gradient(
-          to right,
-          var(--baner-gr-cl),
-          var(--baner-gr-cl)
-        ),
-        url("../images/hero-img/img_md-@2x.jpg");
-    }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: linear-gradient(
+        to right,
+        var(--baner-gr-cl),
+        var(--baner-gr-cl)
+      ),
+      url("../images/hero-img/img_md-@2x.jpg");
   }
 
   @media screen and (min-width: 769px) {
@@ -63,18 +63,19 @@
         var(--baner-gr-cl)
       ),
       url("../images/hero-img/img_lg-@1x.jpg");
-
-    @media (min-device-pixel-ratio: 2),
-      (min-resolution: 192dpi),
-      (min-resolution: 2dppx) {
-      background-image: linear-gradient(
-          to right,
-          var(--baner-gr-cl),
-          var(--baner-gr-cl)
-        ),
-        url("../images/hero-img/img_lg-@2x.jpg");
-    }
   }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: linear-gradient(
+        to right,
+        var(--baner-gr-cl),
+        var(--baner-gr-cl)
+      ),
+      url("../images/hero-img/img_lg-@2x.jpg");
+  }
+
   background-color: var(--baner-cl);
   background-repeat: no-repeat;
   background-position: center;
