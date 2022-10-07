@@ -1229,6 +1229,7 @@ body {
   background-color: transparent;
   border: none;
   cursor: pointer;
+  fill: var(--dark-txt-cl);
   -webkit-transition: fill var(--animation);
   transition: fill var(--animation);
 }
@@ -1299,6 +1300,8 @@ body {
 
 .mobile-menu__item {
   color: var(--primary-txt-cl);
+  -webkit-transition: color var(--animation);
+  transition: color var(--animation);
 }
 .mobile-menu__item:hover, .mobile-menu__item:focus {
   color: var(--accent-txt-cl);
@@ -1316,9 +1319,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
   gap: 10px;
   margin-top: 64px;
 }
